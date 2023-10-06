@@ -1,0 +1,17 @@
+table{
+  width: 800px;
+  height: 500px;
+}
+th{
+  background-color: rgb(205, 205, 229);
+}
+td:hover{
+  background-color: khaki;
+}
+td:active{
+  background-color: darkkhaki;
+}
+
+table tr:last-child td{
+  transition: background-color 1s;
+}
