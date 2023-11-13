@@ -1,3 +1,30 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active {
+    border-bottom: 2px solid #fff;
+}
+
 body {
     background-color: #f1f1f1;
     font-family: Arial, sans-serif;
@@ -12,7 +39,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Стилі шапки */
 header {
     background-color: #333;
     color: #fff;
@@ -26,7 +52,6 @@ h1 {
     margin: 0;
 }
 
-/* Стилі основного вмісту */
 .main-content {
     padding: 20px;
 }
@@ -65,7 +90,6 @@ th, td {
     text-align: left;
 }
 
-/* Стилі для правої колонки */
 .sidebar {
     float: right;
     width: 30%;
@@ -107,10 +131,12 @@ th, td {
     font-size: 14px;
 }
 
-/* Стилі підвалу */
 footer {
     background-color: #333;
-    color: #fff;
     padding: 20px;
     text-align: center;
+}
+
+a{
+    color: crimson;
 }

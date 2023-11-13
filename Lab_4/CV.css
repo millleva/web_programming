@@ -1,0 +1,100 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: url("square.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: left top;
+  background-attachment: fixed;
+}
+
+.firstRectangle {
+  position: absolute;
+  z-index: -1;
+  width: 3000px;
+  height: 100px;
+  background-color: #c4d3dc;
+  top: 70px;
+}
+
+.secondRectangle {
+  position: absolute;
+  z-index: -1;
+  width: 250px;
+  height: 1000px;
+  background-color: #95b5d3;
+  left: 30px;
+}
+
+img{
+  position: absolute;
+  border: 4px solid rgb(255, 255, 255);
+  left: 70px;
+}
+
+h2{
+  position: relative;
+  left: 300px;
+  font-size: 30px;
+}
+
+#birthdate{
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 160px;
+  left: 300px;
+}
+
+.contacts{
+  position: absolute;
+  top: 300px;
+  left: 40px;
+  color: black;
+  font-size: larger;
+}
+
+.form{
+  position: absolute;
+  top: 530px;
+  left: 40px;
+  color: white;
+}
+
+.table{
+  position: absolute;
+  top: 750px;
+  left: 40px;
+}
+
+.education{
+  position: relative;
+  top: 70px;
+  left: 300px;
+  border: 2px solid #95b5d3;
+  border-radius: 30px;
+  background-color: #c4d3dc;
+  padding: 20px;
+  width: 500px;
+  height: 180px;
+  transition: width 0.3s, height 0.3s;
+}
+.education:hover{
+  width: 510px;
+  height: 190px;
+}
+
+.skills{
+  position: relative;
+  top: 100px;
+  left: 300px;
+  border: 2px solid #95b5d3;
+  border-radius: 30px;
+  background-color: #c4d3dc;
+  padding: 20px;
+  width: 500px;
+  height: 240px;
+  transition: width 0.3s, height 0.3s;
+}
+.skills:hover{
+  width: 510px;
+  height: 250px;
+}
