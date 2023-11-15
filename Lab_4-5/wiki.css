@@ -140,3 +140,55 @@ footer {
 a{
     color: crimson;
 }
+
+@media only screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .sidebar {
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        padding: 5px;
+    }
+
+    nav ul li {
+        display: list-item;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .container {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .sidebar {
+        float: right;
+        width: 50%;
+        padding-left: 0;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        padding: 5px;
+    }
+
+    nav ul li {
+        display: list-item;
+        margin-right: 5px;
+    }
+}
