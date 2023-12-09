@@ -10,7 +10,7 @@ body{
 .firstRectangle {
   position: absolute;
   z-index: -1;
-  width: 1000px;
+  width: 3000px;
   height: 100px;
   background-color: #c4d3dc;
   top: 70px;
@@ -98,3 +98,4 @@ h2{
   width: 510px;
   height: 250px;
 }
+
